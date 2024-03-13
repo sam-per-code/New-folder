@@ -1,0 +1,225 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #a8d8ea;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ff6f61;
+    color: #fff;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff6f61;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+    color: #777;
+  }
+  
+  /* Portfolio Section */
+  .portfolio {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #ffcbcb;
+  }
+  
+  .portfolio h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 40px;
+  }
+  
+  .portfolio-item img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .portfolio-item h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #777;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .contact form button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact form button:hover {
+    background-color: #ffccc7;
+    color: #fff;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .skills {
+    background-color: #ffc107;
+    padding: 20px 0;
+    text-align: center; /* Center align the content */
+  }
+  
+  .skills h2 {
+    font-size: calc(2rem + 5px); /* Increase font size by 5 points */
+    color: #333;
+  }
+  
+  .icon-label-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .icon-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+  }
+  
+  .icon-label i {
+    font-size: 5em; /* ten times bigger */
+    transition: transform 0.3s ease;
+  }
+  
+  .icon-label p {
+    margin-top: 10px; /* Adjust this value for vertical spacing */
+    font-weight: bold;
+  }
+  
+  .icon-label i:hover {
+    animation: spin 0.5s linear;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(90deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    75% {
+      transform: rotate(270deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
